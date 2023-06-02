@@ -1,5 +1,5 @@
 Ext.define('DirectApp.model.User', {
-    extend: 'DirectApp.model.Base',
+    extend: 'Ext.data.Model',
 
     requires: [
         // 'DirectApp.store.Education',

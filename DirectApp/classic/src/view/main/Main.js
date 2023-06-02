@@ -15,9 +15,7 @@ Ext.define('DirectApp.view.main.Main', {
 
         'DirectApp.view.main.MainController',
         'DirectApp.view.main.MainModel',
-        'DirectApp.view.main.List',
         'DirectApp.view.users.usersList',
-        'DirectApp.view.education.educationList'
     ],
 
     controller: 'main',
@@ -77,14 +75,6 @@ Ext.define('DirectApp.view.main.Main', {
     },
 
     items: [
-    //     {
-    //     title: 'Home',
-    //     iconCls: 'fa-home',
-    //     // The following grid shares a store with the classic version's grid as well!
-    //     items: [{
-    //         xtype: 'mainlist'
-    //     }]
-    // },
      {
         title: 'Users',
         iconCls: 'fa-user',
