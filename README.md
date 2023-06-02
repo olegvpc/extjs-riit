@@ -29,12 +29,15 @@ MVC или MVVM, сложная выборка должна реализовыв
 #### 2: BackEnd выполнен на PHP (Laravel)
 #### 3: DB - MySQL
 #### 4: FrontEnd выполнен на ExtJS
-![extjs](https://github.com/olegvpc/laravel-riit/blob/main/images/react.png?raw=true)
+![extjs](https://github.com/olegvpc/extjs-riit/blob/main/DirectApp/images/main.png?raw=true)
 #### 4.1 Карточки юзров построены на grid 
 #### 4.2 Редактирование образования через Prompt
+![extjs](https://github.com/olegvpc/extjs-riit/blob/main/DirectApp/images/education.png?raw=true)
 #### 4.3 При обновлении данных образования основная страница не рендерится
+#### 4.4 Вывод городов через Alert
+![extjs](https://github.com/olegvpc/extjs-riit/blob/main/DirectApp/images/cities.png?raw=true)
 #### 5: Создан UI на PHP (http://localhost:80) для занесения данных в базу
-#### 6: Настроена верификация данных на уровне контроллера при получении формы
+#### 6: На Back-End настроена верификация данных на уровне контроллера при получении формы
 #### 7: Данные верификации возвращаются на исходную страницу при fail
 ![validation](https://github.com/olegvpc/laravel-riit/blob/main/images/validation.png?raw=true)
 #### 8: Подключены русские варианты сообщений верификации
