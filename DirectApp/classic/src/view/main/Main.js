@@ -82,13 +82,5 @@ Ext.define('DirectApp.view.main.Main', {
             xtype: 'userslist'
         }]
     },
-    // {
-    //     title: 'Education',
-    //     iconCls: 'fa-plane',
-    //     items: [{
-    //         xtype: 'educationlist'
-    //     }]
-    // }
-
-]
+    ]
 });

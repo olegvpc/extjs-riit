@@ -7,12 +7,15 @@ Ext.define('DirectApp.view.users.usersList', {
     requires: [
         'DirectApp.store.User',
     ],
+
     width: 600,
 
     title: 'Users',
+
     plugins: [
         'gridfilters',
     ],
+
     selectable: {
         rows: false,
         cells: true

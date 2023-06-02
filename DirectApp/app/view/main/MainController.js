@@ -70,13 +70,7 @@ Ext.define('DirectApp.view.main.MainController', {
             })
         };
         store.citiesStore.load(function(){
-            console.log(this.getAt(0).get('cities'))
             Ext.Msg.alert(`Города пользователя ${rec.get('name')}:`, this.getAt(0).get('cities'));
-
         });
-        // const education = Ext.create('DirectApp.store.Education', rec.get('id'));
-        // console.log(rec.get('id'), education.id)
-
-        // Ext.Msg.alert('Approve', rec.get('name'));
     },
 });
